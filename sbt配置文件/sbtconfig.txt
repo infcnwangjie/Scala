@@ -1,0 +1,20 @@
+# Set the java args to high
+
+-Xmx512M
+
+#-XX:MaxPermSize=256m
+
+-XX:ReservedCodeCacheSize=128m
+
+
+
+# Set the extra SBT options
+
+-Dsbt.log.format=true
+
+
+#我后面添加上的
+-Dfile.encoding=UTF8
+-Dsbt.boot.directory=e:/sbt/boot/
+-Dsbt.ivy.home=e:/sbt/ 
+
