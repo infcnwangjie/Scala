@@ -1,0 +1,14 @@
+
+杀掉 yarn进程
+yarn application -kill  application_1507596072778_007
+
+
+Scala idea 打包：必须build  然后maven package
+
+
+yarn 的方式提交到集群 执行spark
+./spark-submit  --class inspur.TstSparkHive \
+--master yarn-cluster \
+--conf spark.eventLog.dir=hdfs://idapcluster/splog \
+--deploy-mode cluster \
+/opt/BigData-1.0-SNAPSHOT.jar 10

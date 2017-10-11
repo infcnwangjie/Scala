@@ -1,0 +1,5 @@
+package inspur
+
+object TestHive {
+
+}
