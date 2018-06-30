@@ -1,0 +1,4 @@
+比较少见的错误：
+Spark on YARN requirement failed：
+
+是因为提交jar包的时候，jar包里面有重复的jar包导致错误。
